@@ -8,3 +8,13 @@ button,input[type="button"]{cursor: pointer}
 
 .clear{clear:both; font-size:0;}
 .clearfix::after{clear: both; content: "";	display: table;}
+a,
+a:focus,
+a:hover{
+    text-decoration: none;
+    text-underline: none;
+    color: inherit;
+}
+h1, h2, h3, h4, h5, h6, p, span {
+    margin: 0;
+}
