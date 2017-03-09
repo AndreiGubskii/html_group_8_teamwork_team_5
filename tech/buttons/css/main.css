@@ -30,6 +30,9 @@
 	font-size: 14px;
 	font-weight: 100;
 }
+.contact {
+	padding: 21px 144px 21px 144px;
+}
 
 /***поставил паддин чтоб разделить формы***/
 form {
