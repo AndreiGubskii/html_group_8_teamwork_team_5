@@ -2,17 +2,17 @@
 	position: fixed;
 	top: 0;
 	width: 100%;
-    height: auto;
-    z-index: 10;
-    display: block;
-    background: #fff;
-    margin-bottom: 30px;
+	height: auto;
+	z-index: 10;
+	display: block;
+	background: #fff;
+	margin-bottom: 30px;
 }
 .menu-btn-open{
 	font-size: 30px;
-    position: absolute;
-    bottom: 65%;
-    left: 5%;
+	position: absolute;
+	bottom: 65%;
+	left: 5%;
 }
 .menu-btn-open a:hover,
 .menu-btn-open a:active,
