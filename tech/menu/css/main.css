@@ -1,8 +1,31 @@
-
+.mobile-header{
+	position: fixed;
+	top: 0;
+	width: 100%;
+    height: auto;
+    z-index: 10;
+    display: block;
+    background: #fff;
+    margin-bottom: 30px;
+}
+.menu-btn-open{
+	font-size: 30px;
+    position: absolute;
+    bottom: 65%;
+    left: 5%;
+}
+.menu-btn-open a:hover,
+.menu-btn-open a:active,
+.menu-btn-open a:focus{
+	color: #2cb8b6;
+}
 .side-menu{
+	position: absolute;;
+	left: -350px;
+	margin-top: 130px;
 	font-family: 'Roboto', sans-serif;
 	max-width: 300px;
-	width: 100%;
+	width: 85%;
 	background: #242b2e;
 	text-align: right;
 	padding-bottom: 270px;
@@ -10,12 +33,12 @@
 	-moz-box-shadow:    20px 0px 15px 0px rgba(0, 0, 0, 0.3);
 	box-shadow:         20px 0px 15px 0px rgba(0, 0, 0, 0.3);
 	font-weight: 300;
-/*	position: fixed;
-z-index: 10;*/
 }
 .menu-header{
 	background: #fff;
+	display: none;
 }
+.mobile-header .logo img,
 .menu-header .logo img{
 	display: block;
 	max-width: 186px;
@@ -29,10 +52,10 @@ z-index: 10;*/
 	text-decoration: none;
 	text-transform: uppercase;
 	color: #fff;
-	font-size: 18px;
+	font-size: 12px;
 	line-height: 21px;
 	box-sizing: border-box;
-	padding: 20px 25px;
+	padding: 15px 25px;
 	border-bottom: 1px solid #293034;
 	background: rgb(51,59,63);
 	background: -moz-linear-gradient(top,  rgba(51,59,63,1) 0%, rgba(48,56,60,1) 50%, rgba(46,54,58,1) 100%);
@@ -48,13 +71,13 @@ z-index: 10;*/
 .filters{
 	padding: 0 25px 23px 0;
 	border-bottom: 1px solid #293034;
-    margin-top: 19px;
+	margin-top: 19px;
 }
 .filters-title{
 	color: #1ab5b3;
 	font-weight: 300;
 	margin: 0;
-	font-size: 19px;
+	font-size: 16px;
 	line-height: 32px;
 	background: url(../../../images/filters-icon.png) no-repeat center right;
 	box-sizing: border-box;
@@ -67,7 +90,7 @@ z-index: 10;*/
 	text-decoration: none;
 	text-transform: capitalize;
 	color: #6b7072;
-	font-size: 13px;
+	font-size: 10px;
 	line-height: 25px;
 	box-sizing: border-box;
 }
@@ -77,12 +100,46 @@ a:focus{
 	color: #fff;
 }
 .social{
-    margin: 25px 21px 0 21px
+	margin: 25px 21px 0 21px
+}
+.social img{
+	width: 100%;
+	height: auto;
+	display: inline-block;
 }
 .сopyrighted{
 	margin-right: 25px;
 	color: #6b7072;
-	font-size: 12px;
+	font-size: 8px;
 	line-height: 25px;
 	padding: 0 0 10px 0;
+}
+
+@media screen and (min-width: 640px) {
+	.mobile-header{
+		display: none;
+	}
+	.menu-header{
+		display: block;
+	}
+	.side-menu{
+		position: static;
+		left: 0;
+		margin-top: 0;
+		width: 100%;
+	}
+
+	.nav-item{
+		font-size: 18px;
+		padding: 20px 25px;
+	}
+	.filters-title{
+		font-size: 19px;
+	}
+	.filters a{
+		font-size: 13px;
+	}
+	.сopyrighted{
+		font-size: 12px;
+	}
 }
