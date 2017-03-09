@@ -21,7 +21,7 @@
 }
 
 .form-btn {
-	font-family: 'Roboto', sans-serif;;
+	font-family: 'Roboto', sans-serif;
 	text-transform: uppercase;
 	padding: 21px 122px 21px 124px;
 	background: #1ab5b3;
@@ -37,4 +37,49 @@
 /***поставил паддин чтоб разделить формы***/
 form {
 	padding: 30px;
+}
+
+.contact-info {
+	background: #28b4b2;
+	text-decoration: none;
+	padding: 15px 15px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.fa-info-circle {
+	font-size: 28px;
+	color: #fff;
+	padding: 15px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+}
+
+.contact-block {
+	max-width: 283px;
+	width: 100%;
+	margin: 0;
+	padding: 12px 20px;
+	background: #333333;
+	opacity: .5;
+	position: absolute;
+	top: 90px;
+	right: 0;
+	display: none;
+	box-sizing: border-box;
+}
+.contact-block li {
+	list-style: none;
+	font-size: 16px;
+	color: #fff;
+	padding: 8px 0;
+	font-family: 'Roboto', sans-serif;;;
+	font-weight: 100;
+}
+.contact-block-element {
+	padding-left: 18px;
+}
+
+.contact-block:hover {
+	display: block;
 }
