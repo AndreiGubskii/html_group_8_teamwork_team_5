@@ -65,8 +65,8 @@ form {
 	position: absolute;
 	top: 90px;
 	right: 0;
-	display: none;
 	box-sizing: border-box;
+	display: none;
 }
 .contact-block li {
 	list-style: none;
@@ -80,6 +80,3 @@ form {
 	padding-left: 18px;
 }
 
-.contact-block:hover {
-	display: block;
-}

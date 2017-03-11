@@ -1,10 +1,15 @@
-$(".contact-info").click(function(){   
-  $(this).next(".contact-block").show();
-});
+ $(document).ready(function(){
 
-$(".contact-info").dblclick(function(){   
-  $(this).next(".contact-block").hide();
-});
+ 	$(".contact-info").click(function () {
+ 		if ($(".contact-block").is(":hidden")) {
 
+ 			$(".contact-block").show("slow");
 
+ 		} else {
 
+ 			$(".contact-block").hide("slow");
+
+ 		}
+ 		return false;
+ 	});
+ });
