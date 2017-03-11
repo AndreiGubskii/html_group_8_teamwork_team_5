@@ -249,24 +249,79 @@ a:focus{
 	margin-top: 115px;
 }
 
+.contact-info {
+	background: #28b4b2;
+	text-decoration: none;
+	padding: 5px;
+	position: fixed;
+	top: 116px;
+	right: 0;
+	z-index: 11;
+}
+.fa-info-circle {
+	font-size: 28px;
+	color: #fff;
+	padding: 10px 13px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+}
+
+.contact-block {
+	max-width: 283px;
+	width: 100%;
+	margin: 0;
+	padding: 12px 20px;
+	background: #333333;
+	opacity: .5;
+	position: fixed;
+	top: 176px;
+	right: 0;
+	box-sizing: border-box;
+	display: none;
+	z-index: 11;
+}
+.contact-block li {
+	list-style: none;
+	font-size: 16px;
+	color: #fff;
+	padding: 8px 0;
+	font-weight: 100;
+}
+.contact-block-element {
+	padding-left: 18px;
+}
 
 @media screen and (min-width: 768px) {
+	/*Home page*/
 	.hp-gallery{
 		margin-top: 0;
 	}
+	/*Mobile Header*/
 	.mobile-header{
 		display: none;
 	}
 	.menu-header{
 		display: block;
 	}
+	/*Contact info*/
+	.contact-info {
+		padding: 15px 15px;
+		top: 0;
+	}
+	.fa-info-circle {
+		padding: 15px 18px;
+	}
+	.contact-block {
+		top: 90px;
+		z-index: 11;
+	}
+	/*Side Menu*/
 	.side-menu{
 		position: static;
 		left: 0;
 		margin-top: 0;
 		width: 100%;
 	}
-
 	.nav-item{
 		font-size: 18px;
 		padding: 20px 25px;

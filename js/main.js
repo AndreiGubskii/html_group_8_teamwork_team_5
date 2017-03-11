@@ -2,7 +2,9 @@ var main = function() {
   /***** Side-menu *****/  
   var isOpen = false,
   menuBtn = $('.menu-btn-open'),
-  menu = $('.side-menu');
+  menu = $('.side-menu'),
+  contactInfoBtn = $('.contact-info'),
+  contactInfoPanel = $(".contact-block");
 
   function openMenu(){
     menu.animate({
@@ -26,9 +28,6 @@ var main = function() {
     }
   });
 
-  $("body").on("swiperight", swipeRightListener );
-  $("body").on("swipeleft", swipeLeftListener );
-
   //Sticky
   $(window).scroll(function() {
     if ($(this).scrollTop() > 485){  
@@ -37,6 +36,16 @@ var main = function() {
     else{
       menu.removeClass("sticky");
     }
+  });
+
+  // Contact info
+  contactInfoBtn.click(function () {
+    if (contactInfoPanel.is(":hidden")) {
+      contactInfoPanel.show("slow");
+    } else {
+      contactInfoPanel.hide("slow");
+    }
+    return false;
   }); 
 }
 
