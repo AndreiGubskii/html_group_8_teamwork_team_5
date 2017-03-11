@@ -1,7 +1,5 @@
 var main = function() {
-  /***** Side-menu *****/
-  $.mobile.loading().hide();
-  
+  /***** Side-menu *****/  
   var isOpen = false,
   menuBtn = $('.menu-btn-open'),
   menu = $('.side-menu');
@@ -30,13 +28,6 @@ var main = function() {
 
   $("body").on("swiperight", swipeRightListener );
   $("body").on("swipeleft", swipeLeftListener );
-
-  function swipeRightListener( event ){
-    openMenu();
-  }
-  function swipeLeftListener( event ){
-    clouseMenu();
-  }
 
   //Sticky
   $(window).scroll(function() {
