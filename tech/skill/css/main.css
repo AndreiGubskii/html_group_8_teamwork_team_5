@@ -1,0 +1,60 @@
+.progress {background: rgba(255, 255, 255, 1); border: 1px solid rgba(236, 236, 236, 1); border-radius: 0px; height: 35px;}
+.progress-bar-custom {background: rgba(226, 226, 226, 1);}
+
+
+.our-skills{
+	box-sizing: border-box;
+	width: 90%;
+	margin: 0 auto;
+	font-weight: 300;
+}
+.our-skill-title{
+	color: #222222;
+	font-size: 24px;
+	font-weight: 100;
+}
+.name-skill{
+	display: inline-block;
+	float: left;
+	color: #858585;
+	font-size: 15px;
+}
+.count-skill{
+	display: inline-block;
+	float: right;
+	color: #000;
+	font-size: 14px;
+}
+
+.testimonials{
+	box-sizing: border-box;
+	width: 90%;
+	margin: 0 auto;
+}
+.testimonials-title{
+	color: #222222;
+	font-size: 24px;
+	font-weight: 100;
+}
+.testimonials .media-middle{
+	padding: 0;
+}
+.testimonials .media-heading{
+	margin: 30px 15px;
+	font-style: italic;
+	color: #fff;
+	font-size: 15px;
+	
+}
+.testimonials .media-body{
+	background: #1ab5b3;
+}
+.testimonials .media-message{
+	border: 1px solid #ececec;
+	color: #a3a3a3;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 30px;
+	padding: 20px;
+	box-sizing: border-box;
+}
