@@ -2,6 +2,10 @@ body{
 	font-family: 'Roboto', helvetica, sans-serif;
 }
 
+.border-grey{
+	border: 20px solid #b4b7b8;
+}
+
 /**** Side Menu ****/
 .mobile-header{
 	position: fixed;
