@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="../../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../vendor/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="../../vendor/fancybox/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="../../js/maps-modern.js"></script>
+    <title>TC</title>
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="contact-form-wrap">
+        <div class="contact-form-block">
+            <h2>Get in touch with us</h2>
+            <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id
+                elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
+                Nam nec tellus a odio tincidunt auctor a ornare odio.</p>
+            <h2>Send us a message</h2>
+            <form class="contact-form">
+                <div class="contact-left">
+                    <div class="input name-wrap">
+                        <div class="icon-block">
+                            <div class="icon-wrap"><i class="fa fa-user input-icon" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <input type="text" placeholder="Name" min="1" max="100" required>
+                    </div>
+                    <div class="input email-wrap">
+                        <div class="icon-block">
+                            <div class="icon-wrap"><i class="fa fa-envelope input-icon" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <input type="email" placeholder="E-mail" min="2" max="100" required>
+                    </div>
+                    <div class="input site-wrap">
+                        <div class="icon-block">
+                            <div class="icon-wrap">
+                                <i class="fa fa-link input-icon" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <input type="text" placeholder="Website" min="3" max="100">
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <div class="message-wrap">
+                        <textarea class="message-field" cols="30" rows="5" placeholder="Message"
+                                  maxlength="120"></textarea>
+                    </div>
+                    <div class="btn-wrap">
+                        <input type="submit" value="send now!" class="form-btn-send">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="map" class="map"></div>
+</div>
+
+<script src="../../vendor/jquery/jquery-3.1.1.min.js"></script>
+
+
+<script src="../../js/Google-maps.js"></script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzOetSVHbIbr3Ief4jpjcq7COLpZsYubY&callback=initMap"></script>
+<script src="../../vendor/fancybox/jquery.fancybox.pack.js"></script>
+
+<script src="../../js/main.js"></script>
+</body>
+</html>
