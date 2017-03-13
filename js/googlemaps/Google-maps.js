@@ -1,15 +1,15 @@
 /*** Created by Медет on 20.02.2017.*/
 function initMap() {
-    var bishkek = {lat: 42.846417,  lng:74.597243};
-    var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 17,
-        center: bishkek
+    var map = new google.maps.Map(document.getElementById("map"), {
+        center: new google.maps.LatLng(42.846417,74.597243),
+        zoomControl: false,
+        mapTypeControl: false,
+        scaleControl: false,
+        streetViewControl: false,
+        rotateControl: false,
+        zoom: 16
     });
-    var marker = new google.maps.Marker({
-        position: bishkek,
-        map: map
-    });
-    var style = [
+    var styles= [
         {
             "elementType": "geometry",
             "stylers": [
@@ -168,22 +168,7 @@ function initMap() {
                 }
             ]
         }
-    ]
+    ];
+    map.setOptions({styles: styles});
+
 }
-
-
-    //Создание точки на карте
-    var map_options = {
-        center: new google.maps.LatLng(latitude, longitude),
-        zoom: map_zoom,
-        panControl: false,
-        zoomControl: false,
-        mapTypeControl: false,
-        streetViewControl: false,
-        mapTypeId: google.maps.MapTypeId.ROADMAP,
-        scrollWheel: false,
-        styles: style
-    };
-    //Инициализация карты
-    var map = new google.maps.Map(document.getElementById('google-container'), map_options);
-

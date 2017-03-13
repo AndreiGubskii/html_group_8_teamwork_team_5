@@ -6,15 +6,15 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
 
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="../../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../vendor/fontawesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="../../vendor/bootstrap/bootstrap.css">
     <link rel="stylesheet" href="../../vendor/fancybox/jquery.fancybox.css">
     <link rel="stylesheet" href="css/main.css">
     <title>TC</title>
 </head>
 <body>
-
 <div class="container-fluid">
+
     <div class="contact-form-wrap">
         <div class="contact-form-block">
             <h2>Get in touch with us</h2>
@@ -44,13 +44,13 @@
                                 <i class="fa fa-link input-icon" aria-hidden="true"></i>
                             </div>
                         </div>
-                        <input type="text" placeholder="Website" min="3" max="100">
+                        <input type="text" placeholder="Website" min="3" max="100" required>
                     </div>
                 </div>
                 <div class="contact-right">
                     <div class="message-wrap">
                         <textarea class="message-field" cols="30" rows="5" placeholder="Message"
-                                  maxlength="120"></textarea>
+                                  maxlength="120" required></textarea>
                     </div>
                     <div class="btn-wrap">
                         <input type="submit" value="send now!" class="form-btn-send">
@@ -61,11 +61,10 @@
     </div>
     <div id="map" class="map"></div>
 </div>
-
 <script src="../../vendor/jquery/jquery-3.1.1.min.js"></script>
-<script src="../../vendor/googlemaps/Google-maps.js"></script>
+
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzOetSVHbIbr3Ief4jpjcq7COLpZsYubY&callback=initMap"></script>
-<script src="../../vendor/googlemaps/maps-modern.js"></script>
+<script src="../../js/googlemaps/Google-maps.js"></script>
 <script src="../../vendor/fancybox/jquery.fancybox.pack.js"></script>
 <script src="../../js/main.js"></script>
 </body>
