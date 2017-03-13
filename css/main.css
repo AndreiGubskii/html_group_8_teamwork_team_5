@@ -295,6 +295,114 @@ a:focus{
 	padding-left: 18px;
 }
 
+/*Contact page*/
+/**Map**/
+.map {
+    width: 100%;
+    height: 100vw;
+}
+
+/*Form**/
+.contact-form-wrap {
+    max-width: 782px;
+    width: 95%;
+    box-sizing: border-box;
+    padding: 0 30px;
+    background: #fff;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    margin: 0 auto;
+
+}
+.contact-form-block {
+    width: 100%;
+    padding: 0;
+    font-weight: 300;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 25px;
+}
+.contact-form-block h2 {
+    font-size: 24px;
+
+    font-weight: 300;
+}
+.contact-form-block p {
+    color: #a3a3a3;
+    font-size: 18px;
+    padding-bottom: 29px;
+    border-bottom: 1px solid #a3a3a3;
+}
+.name-wrap, .email-wrap, .site-wrap, .message-wrap, .btn-wrap {
+    padding: 5px 0;
+    display: flex;
+    flex-direction: row;
+}
+.icon-block {
+    border: 1px solid #a3a3a3;
+    border-right: none;
+    width: 70px;
+    display: inline-block;
+    position: relative;
+}
+.icon-wrap {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #26b1af;
+    position: absolute;
+    border-radius: 50%;
+    top: 27%;
+    left: 24%;
+}
+.input-icon {
+    display: block;
+    position: absolute;
+    top: 21%;
+    left: 28%;
+    color: #26b1af;
+    font-size: 16px;
+}
+.fa-envelope {
+    left: 6px;
+}
+.fa-link {
+    left: 7px;
+}
+.contact-form input, textarea {
+    color: #a3a3a3;
+    font-size: 14px;
+    border: 1px solid #a3a3a3;
+    padding: 20px 0 20px 17px;
+    width: 100%;
+}
+.message-wrap textarea {
+    resize: none;
+}
+.contact-form .form-btn-send {
+    text-transform: uppercase;
+    background: #1ab5b3;
+    border-style: none;
+    color: #fff;
+    padding: 20px 0;
+}
+.contact-left, .contact-right {
+    width: 100%;
+}
+@media screen and (min-width: 620px){
+    .contact-left, .contact-right {
+        width: 49%;
+    }
+
+    .contact-form {
+        flex-direction: row;
+    }
+}
 @media screen and (min-width: 768px) {
 	/*Home page*/
 	.hp-gallery{
@@ -344,4 +452,10 @@ a:focus{
 		width: 25%;
 		top:-485px;
 	}
+
+	.contact-form-wrap {
+        position: absolute;
+        top: 25px;
+        left: 25px;
+    }
 }
