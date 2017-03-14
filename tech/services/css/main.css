@@ -1,0 +1,27 @@
+.services {
+	margin: 20px;
+	font-family: 'Roboto', helvetica, sans-serif;
+}
+.services ul {
+	padding: 0;
+	margin: 0;
+}
+.services h2 {
+	font-size: 24px;
+	text-transform: capitalize;
+	color: #333333;
+	font-weight: 300;
+}
+.services li {
+	list-style: none;
+	list-style-position: inside;
+	color: #dedede;
+	font-size: 14px;
+	margin: 0;
+	padding: 12px 0 0 0;
+}
+li:before {
+    content: "• ";
+    color: #dedede;
+    padding-right: 3px;
+}
