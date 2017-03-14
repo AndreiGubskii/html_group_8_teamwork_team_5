@@ -54,12 +54,58 @@
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 hp-gallery">
-				<h2>Contact Page</h2>
-			</div>
-		</div>            
+				<div class="contact-form-wrap">
+					<div class="contact-form-block">
+						<h2>Get in touch with us</h2>
+						<p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id
+							elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
+							Nam nec tellus a odio tincidunt auctor a ornare odio.</p>
+							<h2>Send us a message</h2>
+							<form class="contact-form">
+								<div class="contact-left">
+									<div class="input name-wrap">
+										<div class="icon-block">
+											<div class="icon-wrap"><i class="fa fa-user input-icon" aria-hidden="true"></i>
+											</div>
+										</div>
+										<input type="text" placeholder="Name" min="1" max="100" required>
+									</div>
+									<div class="input email-wrap">
+										<div class="icon-block">
+											<div class="icon-wrap"><i class="fa fa-envelope input-icon" aria-hidden="true"></i>
+											</div>
+										</div>
+										<input type="email" placeholder="E-mail" min="2" max="100" required>
+									</div>
+									<div class="input site-wrap">
+										<div class="icon-block">
+											<div class="icon-wrap">
+												<i class="fa fa-link input-icon" aria-hidden="true"></i>
+											</div>
+										</div>
+										<input type="text" placeholder="Website" min="3" max="100" required>
+									</div>
+								</div>
+								<div class="contact-right">
+									<div class="message-wrap">
+										<textarea class="message-field" cols="30" rows="5" placeholder="Message"
+										maxlength="120" required></textarea>
+									</div>
+									<div class="btn-wrap">
+										<input type="submit" value="send now!" class="form-btn-send">
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div id="map" class="map"></div>
+				</div>
+			</div>            
+		</div>
 	</div>
-</div>
-<script src="vendor/jquery/jquery-3.1.1.min.js"></script>
-<script src="js/main.js"></script>
+	<script src="vendor/jquery/jquery-3.1.1.min.js"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzOetSVHbIbr3Ief4jpjcq7COLpZsYubY&callback=initMap"></script>
+	<script src="js/googlemaps/Google-maps.js"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>
