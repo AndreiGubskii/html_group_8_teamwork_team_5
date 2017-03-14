@@ -425,11 +425,18 @@ a:focus{
 .ourStaff {
 	margin: 0 35px 0 35px;
 }
+.row-gallery {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
 .team-blok {
 	max-width: 227px;
 	box-sizing: border-box;
 	padding: 10px;
 	position: relative;
+	overflow: hidden;
 }
 .team-blok img {
 	width: 100%;
@@ -477,7 +484,6 @@ a:focus{
 }
 .ourStaff h2 {
 	font-size: 24px;
-	color: ;
 	text-transform: capitalize;
 	color: #333333;
 	font-weight: 300;
@@ -486,7 +492,6 @@ a:focus{
 	font-size: 16px;
 	text-transform: uppercase;
 	text-align: center;
-	padding-top: 35%;
 	color: #fff;
 	margin: 0;
 }
@@ -596,6 +601,9 @@ li:before {
 	.contact-form {
 		flex-direction: row;
 	}
+	.row-gallery {
+	display: block;
+}
 }
 @media screen and (min-width: 768px) {
 	/*Home page*/
