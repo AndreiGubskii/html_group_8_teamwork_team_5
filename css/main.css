@@ -460,6 +460,13 @@ a:focus{
 	transition: all 0.4s ease-in;
 	text-align: center;
 	overflow: hidden;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	transform-origin: center center;
 	position: absolute;
 	top: 10px;
