@@ -1,0 +1,22 @@
+.tags {
+	font-family: 'Roboto', sans-serif;
+	margin: 30px;
+}
+.tags h2 {
+	font-size: 24px;
+	font-weight: 300;
+	margin-bottom: 26px;
+}
+.tags span {
+	color: #dedede;
+	font-size: 13px;
+	font-weight: 300;
+	border: 1px solid #dedede;
+	border-radius: 10px;
+	padding: 12px 16px 12px 16px;
+	margin-right: 7px;
+	line-height: 1.1;
+}
+.tags a {
+	padding-left: 3px;
+}
