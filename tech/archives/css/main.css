@@ -1,0 +1,21 @@
+.archives {
+	font-family: 'Roboto', sans-serif;
+	margin: 30px;
+}
+.archives h2 {
+	font-size: 24px;
+	font-weight: 300;
+	margin-bottom: 13px;
+}
+.archives ul {
+	padding: 0;
+	margin: 0;
+}
+.archives li {
+	padding-bottom: 13px;
+	line-height: 1.1;
+	list-style: none;
+	font-size: 14px;
+	color: #949494;
+	font-weight: 300;
+}
