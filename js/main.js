@@ -46,6 +46,14 @@ var main = function() {
       contactInfoPanel.hide("slow");
     }
     return false;
+  });
+
+  //slick
+  $(".slider").slick({
+    dots:true,
+    mobileFirst:true,
+    prevArrow: false,
+    nextArrow: false
   }); 
 }
 
