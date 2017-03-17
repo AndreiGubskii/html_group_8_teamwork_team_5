@@ -1,0 +1,21 @@
+.project-gallery {
+	margin: 30px 30px 30px 24px;
+	max-width: 721px;
+	font-family: 'Roboto', sans-serif;
+	overflow: hidden;
+}
+.project-gallery h2 {
+	font-size: 24px;
+	font-weight: 300;
+	text-transform: capitalize;
+	margin-bottom: 12px;
+	padding-left: 6px;
+}
+.project-gallery-col {
+	float: left;
+	box-sizing: border-box;
+	padding: 6px;
+}
+.project-gallery-col img {
+	width: 100%;
+}
