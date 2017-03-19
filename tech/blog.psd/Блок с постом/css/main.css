@@ -1,0 +1,28 @@
+.post-blok-wrap {
+	background: #1ab5b3;
+	max-width: 294px;
+	width: 100%;
+	position: relative;
+	padding-top: 141px;
+}
+.post-blok {
+	background: #242b2e;
+	color: #fff;
+	text-align: left;
+	position: absolute;
+	top: 0;
+	left: 13px;
+	padding: 20px 30px 16px 26px;
+	font-family: 'Roboto', sans-serif;
+}
+.post-blok h3 {
+	font-size: 21px;
+	font-weight: 300;
+	text-transform: capitalize;
+	padding-bottom: 5px;
+}
+.post-blok p {
+	font-size: 14px;
+	color: #54585a;
+	line-height: 1.8;
+}
