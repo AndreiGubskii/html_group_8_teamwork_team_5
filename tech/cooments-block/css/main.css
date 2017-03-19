@@ -4,7 +4,7 @@
 }
 .comment-media{
 	margin: 54px 0 0 0;
-	position: relative;
+	position: relative; 
 }
 .comment-media, .comment-body{
 	overflow: visible;
