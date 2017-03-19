@@ -1,0 +1,22 @@
+.quote-blok {
+	margin: 100px 500px;
+	font-family: 'PT Serif', serif;
+	background: #242b2e;
+	max-width: 294px;
+	width: 100%;
+}
+.qoute-text {
+	padding: 30px 20px 30px 28px;
+	text-align: center;
+	color: #fff;
+	font-size: 21px;
+}
+.quote-author {
+	padding-top: 16px;
+	font-family: 'Roboto', sans-serif;
+	color: #1ab5b3;
+	font-size: 18px;
+}
+.quote-author p {
+	padding-top: 10px;
+}

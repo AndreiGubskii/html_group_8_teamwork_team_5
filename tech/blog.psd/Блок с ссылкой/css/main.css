@@ -1,0 +1,18 @@
+.link-wrap {
+	background: #1ab5b3;
+	max-width: 294px;
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+.link-text {
+	color: #fff;
+	padding: 34px 30px 17px 24px;
+	text-align: center;
+}
+.link-text p {
+	font-size: 18px;
+}
+.link-text a {
+	font-size: 14px;
+	text-decoration: underline;
+}
