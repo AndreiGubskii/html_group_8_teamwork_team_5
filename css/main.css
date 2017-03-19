@@ -589,7 +589,6 @@ body{
 	padding: 12px 0 0 0;
 }
 li:before {
-	content: "• ";
 	color: #dedede;
 	padding-right: 3px;
 }
@@ -813,7 +812,124 @@ li:before {
 	color: #949494;
 	font-weight: 300;
 }
-/********/
+/****Синглворк****/
+/****Готовые проекты галерея****/
+.related-projects {
+	font-family: 'Roboto', sans-serif;
+}
+.related-projects h2 {
+	font-size: 24px;
+	font-weight: 300;
+	text-transform: capitalize;
+	margin-bottom: 22px;
+}
+.project {
+	width: 100%;
+	max-width: 100%;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.project img {
+	width: 100%;
+}
+.project .fa-arrow-circle-right {
+	font-size: 30px;
+	color: #fff;
+	padding-top: 30%;
+
+}
+.project:hover .project-hover {
+	opacity: 1;
+	-webkit-transform: scale(1) rotate(0deg);
+	-moz-transform: scale(1) rotate(0deg);
+	-o-transform: scale(1) rotate(0deg);
+	-ms-transform: scale(1) rotate(0deg);
+	transform: scale(1) rotate(0deg);
+	-webkit-transition-delay: 0.2s;
+	-moz-transition-delay: 0.2s;
+	-o-transition-delay: 0.2s;
+	transition-delay: 0.2s;
+}
+.project-hover {
+	background: rgba(26, 181, 179,0.9);
+	opacity: 0;
+	-webkit-transform: scale(0) rotate(-180deg);
+	-moz-transform: scale(0) rotate(-180deg);
+	-o-transform: scale(0) rotate(-180deg);
+	-ms-transform: scale(0) rotate(-180deg);
+	transform: scale(0) rotate(-180deg);
+	-webkit-transition: all 0.4s ease-in;
+	-moz-transition: all 0.4s ease-in;
+	-o-transition: all 0.4s ease-in;
+	transition: all 0.4s ease-in;
+	text-align: center;
+	overflow: hidden;
+	transform-origin: center center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+}
+.project-hover a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+/***Проекты галерея маленькие***/
+.project-gallery {
+	max-width: 721px;
+	font-family: 'Roboto', sans-serif;
+	overflow: hidden;
+}
+.project-gallery h2 {
+	font-size: 24px;
+	font-weight: 300;
+	text-transform: capitalize;
+	margin-bottom: 12px;
+	padding-left: 6px;
+}
+.project-gallery-col {
+	float: left;
+	box-sizing: border-box;
+	padding: 6px;
+}
+.project-gallery-col img {
+	width: 100%;
+}
+/***Project features****/
+.features-block {
+	font-family: 'Roboto', sans-serif;
+}
+.features-block h2 {
+	font-size: 24px;
+	font-weight: 300;
+	margin-bottom: 12px;
+	text-transform: capitalize;
+}
+.features-block ul {
+	padding: 0;
+	margin: 0;
+}
+.features-block span {
+	padding-right: 6px;
+}
+.features-block li {
+	padding-bottom: 14px;
+	line-height: 1.2;
+	list-style: none;
+	font-size: 14px;
+	color: #949494;
+	font-weight: 300;
+	text-transform: capitalize;
+}
+
+
+
+
+
 
 /*****Медиа-запросы*****/
 @media screen and (min-width: 420px){
@@ -906,5 +1022,8 @@ li:before {
 
 	.about-col-1{
 		border-right: 1px solid #e2e2e2;
+	}
+	.project {
+		max-width: 240px;
 	}
 }

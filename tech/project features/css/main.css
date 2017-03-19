@@ -1,21 +1,21 @@
-.features-blok {
+.features-block {
 	font-family: 'Roboto', sans-serif;
 	margin: 30px;
 }
-.features-blok h2 {
+.features-block h2 {
 	font-size: 24px;
 	font-weight: 300;
 	margin-bottom: 12px;
 	text-transform: capitalize;
 }
-.features-blok ul {
+.features-blockk ul {
 	padding: 0;
 	margin: 0;
 }
-.features-blok span {
+.features-block span {
 	padding-right: 6px;
 }
-.features-blok li {
+.features-block li {
 	padding-bottom: 14px;
 	line-height: 1.2;
 	list-style: none;
