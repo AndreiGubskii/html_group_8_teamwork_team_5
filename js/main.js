@@ -55,6 +55,8 @@ var main = function() {
     prevArrow: false,
     nextArrow: false
   }); 
-}
+};
+
+
 
 $(document).ready(main);

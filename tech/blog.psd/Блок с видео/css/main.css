@@ -1,0 +1,57 @@
+body {
+	background: red;
+	font-size: 16px;
+}
+.container-wrap {
+	width: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 50px;
+}
+.blog-slider-block-wrap {
+	width: 100%;
+	max-width: 294px;
+	font-family: 'Roboto', helvetica, sans-serif;
+	font-weight: 300;
+}
+.video {
+	/****этот костыль может вызвать проблемы***/
+	margin-bottom: -6px;
+}
+.blog-text-block {
+	background: #fff;
+	padding: 4px 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.blog-text-block h5 {
+	font-size: 18px;
+	color: #000;
+	font-weight: 300;
+	margin: 13px 0;
+}
+.blog-text-block p {
+	font-size: 13px;
+	color: #9c9c9c;
+	font-weight: 300;
+}
+.blog-stat-block {
+	background: #fff;
+	border-top: 1px solid #e3e3e3;
+	box-sizing: border-box;
+	padding: 20px;
+}
+.blog-stat-block span {
+	font-size: 13px;
+	color: #9c9c9c;
+}
+.blog-icon {
+	color: #9c9c9c;
+	font-size: 13px;
+	padding-right: 7px;
+}
+.fa-calendar {
+	padding-left: 20px;
+}
