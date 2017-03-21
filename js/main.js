@@ -27,10 +27,11 @@ var main = function () {
             openMenu();
         }
     });
+    
 
     //Sticky
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 485) {
+        if ($(this).scrollTop() > 150) {
             menu.addClass("sticky");
         }
         else {
