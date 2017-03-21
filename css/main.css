@@ -814,9 +814,6 @@ li:before {
 }
 /****Синглворк****/
 /****Готовые проекты галерея****/
-.related-projects {
-	font-family: 'Roboto', sans-serif;
-}
 .related-projects h2 {
 	font-size: 24px;
 	font-weight: 300;
@@ -824,14 +821,9 @@ li:before {
 	margin-bottom: 22px;
 }
 .project {
-	width: 100%;
-	max-width: 100%;
 	justify-content: center;
 	align-items: center;
 	align-content: center;
-}
-.project img {
-	width: 100%;
 }
 .project .fa-arrow-circle-right {
 	font-size: 30px;
