@@ -599,8 +599,7 @@ li:before {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	border-top-width: 0;
-	border-bottom-width: 0;
+	border-width: 0 20px;
 }
 .slider-overload{
 	margin-bottom: 20px;
