@@ -1065,23 +1065,21 @@ li:before {
 
 /*Post block*/
 .post-blok-wrap {
-	background: #1ab5b3;
 	max-width: 294px;
 	width: 100%;
-	position: relative;
-	padding-top: 141px;
 }
 .post-blok {
 	background: #242b2e;
 	color: #fff;
 	text-align: left;
-	position: absolute;
 	top: 0;
 	left: 13px;
-	padding: 20px 30px 0 26px;
+	padding: 10px 10px 5px 10px;
+    border-left: 15px solid #1ab5b3;
+
 }
 .post-blok h3 {
-	font-size: 21px;
+	font-size: 14px;
 	font-weight: 300;
 	text-transform: capitalize;
 	padding-bottom: 5px;
@@ -1089,9 +1087,8 @@ li:before {
 	margin-bottom: 1.5%;
 }
 .post-blok p {
-	font-size: 14px;
+	font-size: 12px;
 	color: #54585a;
-	line-height: 1.8;
 }
 /*quote box*/
 .quote-blok {
@@ -1101,18 +1098,18 @@ li:before {
 	width: 100%;
 }
 .qoute-text {
-	padding: 30px 20px 30px 28px;
+	padding: 30px 8px 30px 8px;
 	text-align: center;
 	color: #fff;
-	font-size: 21px;
+	font-size: 12px;
 }
 .quote-author {
-	padding-top: 16px;
+	padding-top: 0;
 	color: #1ab5b3;
-	font-size: 18px;
+	font-size: 14px;
 }
 .quote-author p {
-	padding-top: 10px;
+	margin: 0;
 }
 
 .video{
