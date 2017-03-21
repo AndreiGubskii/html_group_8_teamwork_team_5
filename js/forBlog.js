@@ -1,3 +1,6 @@
+/**
+ * Created by Медет on 21.03.2017.
+ */
 var main = function () {
     /***** Side-menu *****/
     var isOpen = false,
@@ -49,11 +52,11 @@ var main = function () {
     });
 
     //slick
-    $(".slider").slick({
-        dots: true,
+    $(".blog-slider-block").slick({
+        dots: false,
         mobileFirst: true,
-        prevArrow: false,
-        nextArrow: false
+        prevArrow: true,
+        nextArrow: true
     });
 
 };
