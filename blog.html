@@ -3,9 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i|Roboto" rel="stylesheet">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.min.css">
+	<link rel = "stylesheet" href = "vendor/slick-master/slick.css">
+	<link rel = "stylesheet" href = "vendor/slick-master/slick-theme.css">
 	<link rel="stylesheet" href="vendor/bootstrap/bootstrap.css">
 	<link rel="stylesheet" href="css/main.css">
 	<title>Kappe-Blog page</title>
@@ -56,28 +58,193 @@
 			<div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 hp-gallery">
 				<div class="blog-grid">
 					<div class="column">
-						<div class="box box-1"></div>
-						<div class="box box-2"></div>
-						<div class="box box-3"></div>
+						<div class="box">
+							<div class="blog-slider-block-wrap">
+								<div class="blog-slider-block slider-block">
+									<div class="blog-img-wrap">
+										<img class="img-responsive" src="http://placehold.it/294x230" alt="random-img">
+									</div>
+									<div class="blog-img-wrap">
+										<img class="img-responsive" src="http://placehold.it/294x230" alt="random-img">
+									</div>
+									<div class="blog-img-wrap">
+										<img class="img-responsive" src="http://placehold.it/294x230" alt="random-img">
+									</div>
+								</div>
+								<div class="blog-text-block">
+									<h5>Gallery Post Example</h5>
+									<p>A man who works with his hands is a laborer; a man who works with his hand s and his brain is a craftsman; but a man who works with his </p>
+								</div>
+								<div class="blog-stat-block">
+									<i class="fa fa-comment blog-icon"></i><span>3 comments</span>
+									<i class="fa fa-calendar blog-icon"></i><span>3 Dec 19, 2013</span>
+								</div>
+							</div>
+						</div>
+						<div class="box">
+							<div class="image-blok">
+								<img class="img-responsive" src="http://placehold.it/294x262" alt="random-img">
+								<div class="image-hover">
+									<a href="#"><i class="fa fa-arrow-right image-arrow" aria-hidden="true"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="box">
+							<div class="link-wrap">
+								<div class="link-text">
+									<p>Another Post where you can put a link to a specific website</p>
+									<i><a href="#">http://www.themeforest.net</a></i>
+								</div>
+							</div>
+						</div>
 					</div>
 					<div class="column">
-						<div class="box box-3"></div>
-						<div class="box box-1"></div>
-						<div class="box box-4"></div>
+						<div class="box">
+							<div class="link-wrap">
+								<div class="link-text">
+									<p>Another Post where you can put a link to a specific website</p>
+									<i><a href="#">http://www.themeforest.net</a></i>
+								</div>
+							</div>
+						</div>
+						<div class="box">
+							<div class="blog-slider-block-wrap">
+								<div class="blog-video-block">
+									<iframe class="video"  width="294" height="184" src="https://www.youtube.com/embed/ZXsQAXx_ao0" frameborder="0" allowfullscreen></iframe>
+								</div>
+								<div class="blog-text-block">
+									<h5>Self-hosted video post</h5>
+									<p>A man who works with his hands is a laborer; a man who works with his hand s and his brain is a craftsman; but a man who works with his </p>
+								</div>
+								<div class="blog-stat-block">
+									<i class="fa fa-comment blog-icon"></i><span>3 comments</span>
+									<i class="fa fa-calendar blog-icon"></i><span>3 Dec 19, 2013</span>
+								</div>
+							</div>
+						</div>
+						<div class="box">
+							<div class="text-blok-wrap">
+								<img class="img-responsive" src="http://placehold.it/294x141" alt="random-img">
+								<div class="blog-text-block">
+									<h5>Standard post format</h5>
+									<p>A man who works with his hands is a laborer; a man who works with his hand s and his brain is a craftsman; but a man who works with his </p>
+								</div>
+								<div class="blog-icon">
+									<i class="fa fa-comment blog-icon"></i><span>3 comments</span>
+									<i class="fa fa-calendar blog-icon"></i><span>Dec 19, 2013</span>
+								</div>
+							</div>
+						</div>
 					</div>
 					<div class="column">
-						<div class="box box-2"></div>
-						<div class="box box-6"></div>
-						<div class="box box-3s"></div>
+						<div class="box">
+							<div class="image-blok">
+								<img class="img-responsive" src="http://placehold.it/294x262" alt="random-img">
+								<div class="image-hover">
+									<a href="#"><i class="fa fa-arrow-right image-arrow" aria-hidden="true"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="box">
+							<div class="text-blok-wrap">
+								<img class="img-responsive" src="http://placehold.it/294x316" alt="random-img">
+								<div class="blog-text-block">
+									<h5>Standard post format</h5>
+									<p>A man who works with his hands is a laborer; a man who works with his hand s and his brain is a craftsman; but a man who works with his </p>
+								</div>
+								<div class="blog-icon">
+									<i class="fa fa-comment blog-icon"></i><span>3 comments</span>
+									<i class="fa fa-calendar blog-icon"></i><span>Dec 19, 2013</span>
+								</div>
+							</div>
+						</div>
+						<div class="box">
+							<div class="post-blok-wrap">
+								<div class="post-blok">
+									<h3>Aside post format</h3>
+									<p>This is Photoshop version of Lorem Inpsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,</p>
+								</div>
+							</div>
+						</div>
 					</div>
 					<div class="column">
-						<div class="box box-7"></div>
-						<div class="box box-1"></div>
-						<div class="box box-2"></div>
+						<div class="box">
+							<div class="quote-blok">
+								<div class="qoute-text">
+									<i><p>Logic will get you from A to B. Imagination will take you everywhere</p></i>
+									<div class="quote-author">
+										<i class="fa fa-quote-left" aria-hidden="true"></i>
+										<p>Albert Einstein</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="box">
+							<div class="text-blok-wrap">
+								<img class="img-responsive" src="http://placehold.it/294x141" alt="random-img">
+								<div class="blog-text-block">
+									<h5>Standard post format</h5>
+									<p>A man who works with his hands is a laborer; a man who works with his hand s and his brain is a craftsman; but a man who works with his </p>
+								</div>
+								<div class="blog-icon">
+									<i class="fa fa-comment blog-icon"></i><span>3 comments</span>
+									<i class="fa fa-calendar blog-icon"></i><span>Dec 19, 2013</span>
+								</div>
+							</div>
+						</div>
+						<div class="box">
+							<div class="blog-slider-block-wrap">
+								<div class="blog-video-block">
+									<iframe class="video"  width="294" height="184" src="https://www.youtube.com/embed/ZXsQAXx_ao0" frameborder="0" allowfullscreen></iframe>
+								</div>
+								<div class="blog-text-block">
+									<h5>Self-hosted video post</h5>
+									<p>A man who works with his hands is a laborer; a man who works with his hand s and his brain is a craftsman; but a man who works with his </p>
+								</div>
+								<div class="blog-stat-block">
+									<i class="fa fa-comment blog-icon"></i><span>3 comments</span>
+									<i class="fa fa-calendar blog-icon"></i><span>3 Dec 19, 2013</span>
+								</div>
+							</div>
+						</div>
 					</div>
 					<div class="column">
-						<div class="box box-1"></div>
-						<div class="box box-1"></div>
+						<div class="box">
+							<div class="blog-slider-block-wrap">
+								<div class="blog-slider-block slider-block">
+									<div class="blog-img-wrap">
+										<img class="img-responsive" src="http://placehold.it/294x230" alt="random-img">
+									</div>
+									<div class="blog-img-wrap">
+										<img class="img-responsive" src="http://placehold.it/294x230" alt="random-img">
+									</div>
+									<div class="blog-img-wrap">
+										<img class="img-responsive" src="http://placehold.it/294x230" alt="random-img">
+									</div>
+								</div>
+								<div class="blog-text-block">
+									<h5>Gallery Post Example</h5>
+									<p>A man who works with his hands is a laborer; a man who works with his hand s and his brain is a craftsman; but a man who works with his </p>
+								</div>
+								<div class="blog-stat-block">
+									<i class="fa fa-comment blog-icon"></i><span>3 comments</span>
+									<i class="fa fa-calendar blog-icon"></i><span>3 Dec 19, 2013</span>
+								</div>
+							</div>
+						</div>
+						<div class="box">
+							<div class="text-blok-wrap">
+								<img class="img-responsive" src="http://placehold.it/294x141" alt="random-img">
+								<div class="blog-text-block">
+									<h5>Standard post format</h5>
+									<p>A man who works with his hands is a laborer; a man who works with his hand s and his brain is a craftsman; but a man who works with his </p>
+								</div>
+								<div class="blog-icon">
+									<i class="fa fa-comment blog-icon"></i><span>3 comments</span>
+									<i class="fa fa-calendar blog-icon"></i><span>Dec 19, 2013</span>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -85,6 +252,7 @@
 	</div>
 </div>
 <script src="vendor/jquery/jquery-3.1.1.min.js"></script>
+<script src="vendor/slick-master/slick.min.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>

@@ -932,58 +932,197 @@ li:before {
 	justify-content: space-between;
 	flex-wrap: wrap;
 	width: 100%;
+	background: #b4b7b8;
+	padding-top: 20px;
 }
 .column{
-	flex-basis: 100%;
+	width: 100%;
 	margin: 0 1%;
 
 }
 .box{
 	margin-bottom: 20px;
 }
-.box-1{
+
+/*Slider box*/
+.blog-slider-block-wrap {
 	width: 100%;
-	height: 410px;
-	background: red;
+	max-width: 294px;
+	font-weight: 300;
+}
+.blog-text-block {
+	background: #fff;
+	padding: 4px 20px 7px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.blog-text-block h5 {
+	font-size: 18px;
+	color: #000;
+	font-weight: 300;
+	margin: 13px 0;
+}
+.blog-text-block p {
+	font-size: 13px;
+	color: #9c9c9c;
+	font-weight: 300;
+}
+.blog-stat-block {
+	background: #fff;
+	border-top: 1px solid #e3e3e3;
+	box-sizing: border-box;
+	padding: 15px 20px 12px;
+}
+.blog-stat-block span {
+	font-size: 13px;
+	color: #9c9c9c;
+}
+.blog-icon {
+	color: #9c9c9c;
+	font-size: 13px;
+	padding-right: 7px;
+}
+.blog-icon .fa-calendar {
+	padding-left: 20px;
+}
+/*Image box*/
+.image-blok {
+	max-width: 294px;
+	width: 100%;
+	position: relative;
+}
+.image-blok img {
+	width: 100%;
+	vertical-align: bottom;
+}
+.image-arrow {
+	padding: 11px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	color: #fff;
+}
+.image-blok:hover .image-hover {
+	opacity: .6;
+	-webkit-transform: scale(1) rotate(0deg);
+	-moz-transform: scale(1) rotate(0deg);
+	-o-transform: scale(1) rotate(0deg);
+	-ms-transform: scale(1) rotate(0deg);
+	transform: scale(1) rotate(0deg);
+	-webkit-transition-delay: 0.2s;
+	-moz-transition-delay: 0.2s;
+	-o-transition-delay: 0.2s;
+	transition-delay: 0.2s;
+}
+.image-hover {
+	background: #d7d7d7;
+	opacity: 0;
+	-webkit-transform: scale(0) rotate(-180deg);
+	-moz-transform: scale(0) rotate(-180deg);
+	-o-transform: scale(0) rotate(-180deg);
+	-ms-transform: scale(0) rotate(-180deg);
+	transform: scale(0) rotate(-180deg);
+	-webkit-transition: all 0.4s ease-in;
+	-moz-transition: all 0.4s ease-in;
+	-o-transition: all 0.4s ease-in;
+	transition: all 0.4s ease-in;
+	text-align: center;
+	overflow: hidden;
+	transform-origin: center center;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+.image-hover a {
+	font-size: 20px;
+	color: #fff;
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding-top: 35%;
 }
 
-.box-2{
+/*Link box*/
+.link-wrap {
+	background: #1ab5b3;
+	max-width: 294px;
 	width: 100%;
-	height: 260px;
-	background: blue;
+}
+.link-text {
+	color: #fff;
+	padding: 34px 30px 17px 24px;
+	text-align: center;
+}
+.link-text p {
+	font-size: 18px;
+}
+.link-text a {
+	font-size: 14px;
+	text-decoration: underline;
 }
 
-.box-3{
+/*Post block*/
+.post-blok-wrap {
+	background: #1ab5b3;
+	max-width: 294px;
 	width: 100%;
-	height: 135px;
-	background: grey;
+	position: relative;
+	padding-top: 141px;
+}
+.post-blok {
+	background: #242b2e;
+	color: #fff;
+	text-align: left;
+	position: absolute;
+	top: 0;
+	left: 13px;
+	padding: 20px 30px 0 26px;
+}
+.post-blok h3 {
+	font-size: 21px;
+	font-weight: 300;
+	text-transform: capitalize;
+	padding-bottom: 5px;
+	margin-top: 2%;
+	margin-bottom: 1.5%;
+}
+.post-blok p {
+	font-size: 14px;
+	color: #54585a;
+	line-height: 1.8;
+}
+/*quote box*/
+.quote-blok {
+	font-family: 'PT Serif', serif;
+	background: #242b2e;
+	max-width: 294px;
+	width: 100%;
+}
+.qoute-text {
+	padding: 30px 20px 30px 28px;
+	text-align: center;
+	color: #fff;
+	font-size: 21px;
+}
+.quote-author {
+	padding-top: 16px;
+	color: #1ab5b3;
+	font-size: 18px;
+}
+.quote-author p {
+	padding-top: 10px;
 }
 
-.box-4{
+.video{
 	width: 100%;
-	height: 330px;
-	background: yellow;
+	height: auto;
+	margin-bottom: -6px;
 }
-
-.box-5{
+.img-responsive{
 	width: 100%;
-	height: 262px;
-	background: green;
 }
-.box-6{
-	width: 100%;
-	height: 500px;
-	background: lightblue;
-}
-.box-7{
-	width: 100%;
-	height: 215px;
-	background: orange;
-}
-
-
-
-
 /*****Медиа-запросы*****/
 @media screen and (min-width: 420px){
 	.comment-media{
@@ -1019,7 +1158,7 @@ li:before {
 		flex-direction: row;
 	}
 	.row-gallery {
-	display: block;
+		display: block;
 	}
 }
 @media screen and (min-width: 768px) {
@@ -1088,7 +1227,7 @@ li:before {
 @media screen and (min-width: 890px){
 
 	.column{
-		flex-basis: 29%;
+		width: 29%;
 	}
 }
 @media screen and (min-width: 980px){
@@ -1096,6 +1235,6 @@ li:before {
 		flex-wrap: nowrap;
 	}
 	.column{
-		flex-basis: 20%;
+		width: 20%;
 	}
 }
