@@ -976,6 +976,8 @@ li:before {
 	color: #9c9c9c;
 	font-size: 13px;
 	padding-right: 7px;
+	padding-left: 10px;
+	background: #fff;
 }
 .blog-icon .fa-calendar {
 	padding-left: 20px;
