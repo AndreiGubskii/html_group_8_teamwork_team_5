@@ -600,6 +600,7 @@ li:before {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	border-top-width: 0;
+	border-bottom-width: 0; 
 }
 .slider-overload{
 	margin-bottom: 20px;
