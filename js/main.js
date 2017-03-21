@@ -55,7 +55,10 @@ var main = function () {
         prevArrow: false,
         nextArrow: false
     });
-
+    $(".blog-slider-block").slick({
+        dots: false,
+        mobileFirst: true
+    });
 };
 
 
